@@ -1,5 +1,5 @@
 {
-  "name": "@adremsoft/qrcode",
+  "name": "@adremsoft/qrcodejs",
   "version": "0.0.1",
   "description": "QRCode.js is javascript library for making QRCode",
   "main": "qrcode.js",
