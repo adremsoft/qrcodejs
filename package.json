@@ -8,8 +8,7 @@
   "files": [
     "qrcode.js"
   ],
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "publishConfig": {
     "@adremsoft:registry": "https://npm.pkg.github.com"
   }
