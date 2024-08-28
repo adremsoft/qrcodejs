@@ -8,8 +8,16 @@
   "files": [
     "qrcode.js"
   ],
-  "devDependencies": {},
-  "repository": "https://github.com/adremsoft/qrcodejs.git",
+  "scripts":{
+    "build": "esbuild qrcode.js --bundle --format=esm --minify --outfile=qrcode.min.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.23.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adremsoft/qrcodejs.git"
+  },
   "publishConfig": {
     "@adremsoft:registry": "https://npm.pkg.github.com"
   }
