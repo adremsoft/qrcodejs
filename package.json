@@ -1,6 +1,6 @@
 {
   "name": "@adremsoft/qrcodejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "QRCode.js is javascript library for making QRCode",
   "main": "qrcode.js",
   "author": "Marcin Banasik",
@@ -9,6 +9,7 @@
     "qrcode.js"
   ],
   "devDependencies": {},
+  "repository": "https://github.com/adremsoft/qrcodejs.git",
   "publishConfig": {
     "@adremsoft:registry": "https://npm.pkg.github.com"
   }
